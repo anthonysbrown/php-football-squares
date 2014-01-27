@@ -1,6 +1,7 @@
-=== Bounce Stopper ===
+=== PHP Football Squares ===
 
-Contributors: Anthony Brown
+Description: Betting Squares for the NFL
+Contributors: anthonysbrown
 Stable tag: 1.0.0
 License: MIT
 
