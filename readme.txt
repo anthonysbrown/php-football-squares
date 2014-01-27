@@ -7,6 +7,9 @@ License: The MIT License (MIT)
 Demo: http://sandbox.worcesterwideweb.com/php-football-squares/
 Demo Password: password
 
+Donate Bitcoin: 1PfENMYmyLtP4psGA8PD6BenLqBjKwBWDg
+Donate Paypal: billing@worcesterwideweb.com
+
 == Installation ==
 
 1. Upload directory to server
