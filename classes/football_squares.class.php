@@ -198,12 +198,11 @@ class football_squares{
 		function admin(){
 				
 		if($_POST['password'] != ''){
-			echo $this->password ;
+			
 				if($_POST['password']  == $this->password){
 				
 				$exp = time() + (86400 * 30);
 				setcookie('auth', md5($_POST['password']), $exp);
-				$h .= 'Logged in!';
 				header("Location: index.php");
 				}else{
 				$h .= 'Inccorect Login';
