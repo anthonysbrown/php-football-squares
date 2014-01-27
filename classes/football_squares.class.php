@@ -9,6 +9,7 @@ class football_squares{
 		public $team_one = 'Team One';
 		public $team_two = 'Team Two';
 		public $price = '5.00';
+		public $currency_symbol = '$';
 		function __construct(){
 						
 			
@@ -158,7 +159,7 @@ class football_squares{
 			foreach($totals as $name => $times){
 					
 						$total_price = $times * $this->price;
-						$total_squares .= '<li>'.$name.' has  '.$times.' squares $'.$total_price.'</li>';
+						$total_squares .= '<li>'.$name.' has  '.$times.' squares '.$this->currency_symbol.''.$total_price.'</li>';
 				
 			}
 			$total_squares .='</ul>';

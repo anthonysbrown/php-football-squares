@@ -1,10 +1,11 @@
 <?php
 include 'classes/football_squares.class.php';
 $squares = new football_squares;
-$squares->password = 'password';
+$squares->password = '101400';
 $squares->team_one = 'Seahawks';
 $squares->team_two = 'Broncos';
 $squares->price = '2.50';
+$squares->currency_symbol = '$';
 ?>
 <!doctype html>
 <html>
@@ -24,7 +25,7 @@ $squares->price = '2.50';
 <div class="noPrint">
 <h2>Rules</h2>
 <ul>
-  <li>Fee: 2 squares for $5</li>
+  <li>Fee: 2 squares for <?php echo $squares->currency_symbol; ?>5</li>
   <li>Payout TBD (Thinking 100 1st half 150 2nd?) Suggestions</li>
     <li>Numbers picked randomly on superbowl sunday before kickoff</li>
 </ul>
