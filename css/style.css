@@ -1,0 +1,47 @@
+body{ background-color:#DFDFDF; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;font-size:.9em;}
+h1{color:#3AA3E0;font-size:1.8em;}
+h2{color:#333;font-size:1.6em;}
+#wrapper{ background-color:#FFF;width:960px;margin:0px auto;padding-top:90px;padding-left:90px;border-radius:10px;}
+
+form label {width:100px;font-weight:bold;font-size:1.2em;display:block;float:left;color:#3AA3E0;}
+form input[type=text] {width:100px;padding:5px;font-size:1.2em;font-weight:bold}
+form input[type=submit] {padding:5px;font-size:1.2em;font-weight:bold}
+.block{ background-color:#EFEFEF;padding:10px;margin:10px;border-radius:10px;}
+
+.squares_login{text-align:right;font-size:.8em;padding:5px;}
+.square_row{}
+.square_col{float:left;}
+.square_col_inside a{border:1px solid #CCC;padding:5px;margin:5px;height:45px; text-align:center;display:block;text-decoration:none;color:#333;line-height:1.4em;}
+.square_col_inside a:hover{ background-color: #CAF8BA}
+.square_col_inside a.chosen{ background-color: #CAF8BA}
+#team_one{font-size:2.5em;position:absolute;margin-top:-75px;margin-left:350px}
+#team_two{font-size:2.5em;position:absolute;margin-top:270px;margin-left:-120px;	/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);}
+
+  .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 2%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+@media print {
+.noPrint {
+    display:none;
+  }
+}
