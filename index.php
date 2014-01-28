@@ -4,7 +4,7 @@ $squares = new football_squares;
 $squares->password = 'password';
 $squares->team_one = 'Seahawks';
 $squares->team_two = 'Broncos';
-$squares->price = '2.50';
+$squares->price = '5.00';
 $squares->currency_symbol = '$';
 ?>
 <!doctype html>
