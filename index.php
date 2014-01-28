@@ -1,7 +1,7 @@
 <?php
 include 'classes/football_squares.class.php';
 $squares = new football_squares;
-$squares->password = '101400';
+$squares->password = 'password';
 $squares->team_one = 'Seahawks';
 $squares->team_two = 'Broncos';
 $squares->price = '2.50';
