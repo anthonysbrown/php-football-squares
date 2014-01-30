@@ -82,8 +82,8 @@ class football_squares{
 				
 				if($_POST['save'] != ''){
 					
-					$this->write($_POST['id'],$_POST['name']);
-					$_SESSION['name'] = $_POST['name'];
+					$this->write($_POST['id'],$this->sanitize($_POST['name']));
+					$_SESSION['name'] = $this->sanitize($_POST['name']);
 				}
 				
 				
@@ -197,7 +197,7 @@ class football_squares{
 			
 		}
 		function admin(){
-				
+				$password = $this->sanitize($_POST['password']);
 		if($_POST['password'] != ''){
 			
 				if($_POST['password']  == $this->password){
@@ -233,5 +233,11 @@ class football_squares{
 			return $h;
 			
 		}
+	
+			
+			function sanitize($input) {
+				$output = addslashes(htmlspecialchars(strip_tags(trim($input))));
+				return $output;
+			}
 }
 ?>
