@@ -2,7 +2,7 @@
 
 Description: Betting Squares for the NFL
 Contributors: anthonysbrown
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: The MIT License (MIT)
 Demo: http://sandbox.worcesterwideweb.com/php-football-squares/
 Demo Password: password
@@ -22,3 +22,7 @@ Donate Paypal: billing@worcesterwideweb.com
 = 1.0.0 = 
 
 * First version created
+
+= 1.0.1 =
+
+* Add sanitization
